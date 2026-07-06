@@ -1,0 +1,6 @@
+{
+  "_placeholder": true,
+  "_component": "businessEventDefinition",
+  "_dependencyOrder": 2,
+  "_note": "The single BED for the instance. No field-count cap; only field-name character length limits. Provisional stub."
+}

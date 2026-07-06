@@ -28,6 +28,12 @@ Uploaded via `PUT /api/v1/configuration/bulk` (`SOFT_MERGE` by default; `HARD_ME
 
 `journalDefinition` → `businessEventDefinition` → `accountingConfigurations` → `nodes` → `postingComponents` → `accountLookups`.
 
+## Build methodology (see `examples/reference-demo/`)
+
+The workbench builds a config **in component parts** (in dependency order), **assembles** them into the Bulk Configuration payload, **pushes** via `PUT /api/v1/configuration/bulk`, and **tests** via API (post events, assert postings + drill-through). `examples/reference-demo/` is the reference implementation and integration test.
+
+> The example's component decomposition and dependency order are currently **placeholders** — the real dependency graph is worked out during implementation, against a live instance. Known-good assembled configs will live in `examples/reference-demo/expected/`.
+
 ## Key configuration facts
 
 - **One BED per instance** = the union of the instance's mandatory accounting fields + reporting-useful fields. **There is no numeric cap on BED field count** — the only limit is the character length of field *names*.

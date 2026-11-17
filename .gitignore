@@ -26,3 +26,6 @@ instance-config/
 Thumbs.db
 .idea/
 .vscode/
+
+# Claude Code session logs (plugin hooks)
+.claude/logs/

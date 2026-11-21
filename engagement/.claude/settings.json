@@ -1,0 +1,37 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -B tools/objective.py:*)",
+      "Bash(python -B tools/workstream.py:*)",
+      "Bash(python -B tools/assignment.py:*)",
+      "Bash(python -B tools/intake.py:*)",
+      "Bash(python -B tools/gate.py:*)",
+      "Bash(python -B tools/eol-churn.py:*)",
+      "Bash(python -B tools/template-sync/template_sync.py:*)",
+      "Bash(python -B tools/fynapse/config_assemble.py:*)",
+      "Bash(python -B tools/fynapse/config_validate.py:*)",
+      "Bash(python -B tools/disclosure-scan/disclosure_scan.py:*)",
+      "PowerShell(python -B tools/objective.py:*)",
+      "PowerShell(python -B tools/workstream.py:*)",
+      "PowerShell(python -B tools/assignment.py:*)",
+      "PowerShell(python -B tools/intake.py:*)",
+      "PowerShell(python -B tools/gate.py:*)",
+      "PowerShell(python -B tools/eol-churn.py:*)",
+      "PowerShell(python -B tools/template-sync/template_sync.py:*)",
+      "PowerShell(python -B tools/fynapse/config_assemble.py:*)",
+      "PowerShell(python -B tools/fynapse/config_validate.py:*)",
+      "PowerShell(python -B tools/disclosure-scan/disclosure_scan.py:*)"
+    ],
+    "deny": [
+      "Edit(scoped-vault/**)",
+      "Write(scoped-vault/**)",
+      "Edit(.env*)",
+      "Write(.env*)",
+      "Edit(secrets/**)",
+      "Write(secrets/**)"
+    ]
+  },
+  "enabledPlugins": {
+    "harness-core@friendly-neighborhood": false
+  }
+}

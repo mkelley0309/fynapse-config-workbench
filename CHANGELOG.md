@@ -15,7 +15,8 @@ Every release entry has an `### Upgrading` subsection: what an existing engageme
 
 - `harness.manifest.json` (hop 1) and `engagement.manifest.json` (hop 2).
 - `engagement/` seeded payload: onboarding `CLAUDE.md`, `README.md`, `.gitignore`, `.gitattributes`, control-plane indexes, locks, intake, friction ledger, `outputs/`, `scope/`, `client-docs/`, `client-data/`, `research/`, `config/` READMEs.
-- Pending: seeded `engagement/.claude/settings.json`, `engagement/.claude/rules/engagement.md` and `engagement/.claude/skills/scoping/` (and their `engagement.manifest.json` entries).
+- `engagement/.claude/settings.json` (seeded), `engagement/.claude/rules/engagement.md` and `engagement/.claude/skills/scoping/` (managed), with their `engagement.manifest.json` entries.
+- `engagement/.gitattributes`: `* -text`, so payload bytes are stored as written and lock hashes survive `core.autocrlf` (replaces the per-extension `eol=lf` rules).
 
 ### Upgrading
 

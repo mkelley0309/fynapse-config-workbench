@@ -1,5 +1,7 @@
+# Store every file byte-for-byte: the harness writers preserve each file's own EOL, and
+# template.lock.json hashes the exact bytes. Never let core.autocrlf or eol rules rewrite them.
+* -text
+
+# Append-only ledgers: concurrent appends on two branches keep both sides.
 control-plane/assignments/_log.md merge=union
 _harness/friction.md merge=union
-*.py eol=lf
-*.json eol=lf
-*.md eol=lf

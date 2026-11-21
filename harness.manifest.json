@@ -1,0 +1,30 @@
+{
+  "schema": "template-sync-manifest/1",
+  "sources": {
+    "workspace": {"repo": "../.."},
+    "knowledge": {"repo": "../../knowledge"}
+  },
+  "entries": [
+    {"source": "workspace", "path": ".claude/skills/objective", "dest": ".claude/skills/objective", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": ".claude/skills/workstream", "dest": ".claude/skills/workstream", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": ".claude/skills/assignment", "dest": ".claude/skills/assignment", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": ".claude/skills/intake", "dest": ".claude/skills/intake", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": ".claude/rules/control-plane.md", "dest": ".claude/rules/control-plane.md", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": ".claude/rules/tools.md", "dest": ".claude/rules/tools.md", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "control-plane/CLAUDE.md", "dest": "control-plane/CLAUDE.md", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/CLAUDE.md", "dest": "tools/CLAUDE.md", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/README.md", "dest": "tools/README.md", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/harnesslib.py", "dest": "tools/harnesslib.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/intake.py", "dest": "tools/intake.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/objective.py", "dest": "tools/objective.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/workstream.py", "dest": "tools/workstream.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/assignment.py", "dest": "tools/assignment.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/gate.py", "dest": "tools/gate.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/eol-churn.py", "dest": "tools/eol-churn.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/template-sync", "dest": "tools/template-sync", "class": "managed", "edition_strip": true, "exclude": ["__pycache__/**"]},
+    {"source": "workspace", "path": "tools/disclosure-scan/disclosure_scan.py", "dest": "tools/disclosure-scan/disclosure_scan.py", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/disclosure-scan/README.md", "dest": "tools/disclosure-scan/README.md", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/disclosure-scan/terms.example.json", "dest": "tools/disclosure-scan/terms.example.json", "class": "managed", "edition_strip": true},
+    {"source": "workspace", "path": "tools/tests", "dest": "tools/tests", "class": "managed", "edition_strip": true, "exclude": ["__pycache__/**", "*.ps1", "test_cadence.py", "test_nested_repo_run.py"]}
+  ]
+}

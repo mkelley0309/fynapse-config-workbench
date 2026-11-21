@@ -1,0 +1,38 @@
+{
+  "schema": "template-sync-manifest/1",
+  "sources": {
+    "wb": {"repo": "."}
+  },
+  "entries": [
+    {"source": "wb", "path": "engagement/.claude/skills/objective", "dest": ".claude/skills/objective", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/skills/workstream", "dest": ".claude/skills/workstream", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/skills/assignment", "dest": ".claude/skills/assignment", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/skills/intake", "dest": ".claude/skills/intake", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/rules/control-plane.md", "dest": ".claude/rules/control-plane.md", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/rules/tools.md", "dest": ".claude/rules/tools.md", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/CLAUDE.md", "dest": "control-plane/CLAUDE.md", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/tools", "dest": "tools", "class": "managed", "edition_strip": false, "exclude": ["__pycache__/**"]},
+
+    {"source": "wb", "path": "engagement/CLAUDE.md", "dest": "CLAUDE.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/README.md", "dest": "README.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.gitignore", "dest": ".gitignore", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.gitattributes", "dest": ".gitattributes", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/settings.json", "dest": ".claude/settings.json", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/rules/engagement.md", "dest": ".claude/rules/engagement.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/skills/scoping", "dest": ".claude/skills/scoping", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/intake/index.md", "dest": "control-plane/intake/index.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/gates/.gitkeep", "dest": "control-plane/gates/.gitkeep", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/locks.md", "dest": "control-plane/locks.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/objectives/index.md", "dest": "control-plane/objectives/index.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/workstreams/index.md", "dest": "control-plane/workstreams/index.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/assignments/index.md", "dest": "control-plane/assignments/index.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/control-plane/assignments/_log.md", "dest": "control-plane/assignments/_log.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/_harness/friction.md", "dest": "_harness/friction.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/outputs/README.md", "dest": "outputs/README.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/scope", "dest": "scope", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/client-docs/README.md", "dest": "client-docs/README.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/client-data/README.md", "dest": "client-data/README.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/research/README.md", "dest": "research/README.md", "class": "seeded", "edition_strip": false},
+    {"source": "wb", "path": "engagement/config/README.md", "dest": "config/README.md", "class": "seeded", "edition_strip": false}
+  ]
+}

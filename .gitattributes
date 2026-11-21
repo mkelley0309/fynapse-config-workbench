@@ -1,0 +1,4 @@
+# core.autocrlf must not rewrite files whose bytes are hashed by template_sync.
+harness.manifest.json -text
+harness.lock.json -text
+engagement.manifest.json -text

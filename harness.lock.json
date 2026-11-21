@@ -226,11 +226,6 @@
       "sha256": "5a62302dfa1996e3d575bd7893596908ec58b3c51a872a3f5dae459b873179a2",
       "source": "workspace"
     },
-    "tools/tests/test_close_checks.py": {
-      "class": "managed",
-      "sha256": "e04c9e7bbdcb2c915da4a11fe9c7c399a9b9a375ca7dac3fcf1d6a99e91e4ccd",
-      "source": "workspace"
-    },
     "tools/tests/test_disclosure_scan.py": {
       "class": "managed",
       "sha256": "b891ed5b1a5e417751790be30bff01f62d4142f7bafbd9d329479d6fe7a59393",
@@ -239,16 +234,6 @@
     "tools/tests/test_eol_churn.py": {
       "class": "managed",
       "sha256": "91401cd644f9c8aad10892e6e857c0c6aed11d137e34cba7cf252b894b568053",
-      "source": "workspace"
-    },
-    "tools/tests/test_eol_roundtrip.py": {
-      "class": "managed",
-      "sha256": "fd5f61df78e183e036e077a69514e3a09d6e01b11d0a8eb262d35765f745befd",
-      "source": "workspace"
-    },
-    "tools/tests/test_field_coverage.py": {
-      "class": "managed",
-      "sha256": "d771bd541d263f6b1243263623d33b5d3caee8a3897aa315d613ae19373a9b3b",
       "source": "workspace"
     },
     "tools/tests/test_gate.py": {
@@ -317,7 +302,7 @@
       "source": "workspace"
     }
   },
-  "manifest_sha256": "8aa821662b1e5fb4e6b5249b14a7897727a9fe5350d9a33b1fce69d3f1e7e38d",
+  "manifest_sha256": "be141d7de821e1f609bbd525cb06888aada2049631d66186cabc5d8b216a4b47",
   "schema": "template-sync-lock/1",
   "sources": {
     "knowledge": {

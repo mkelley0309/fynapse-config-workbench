@@ -25,6 +25,6 @@
     {"source": "workspace", "path": "tools/disclosure-scan/disclosure_scan.py", "dest": "tools/disclosure-scan/disclosure_scan.py", "class": "managed", "edition_strip": true},
     {"source": "workspace", "path": "tools/disclosure-scan/README.md", "dest": "tools/disclosure-scan/README.md", "class": "managed", "edition_strip": true},
     {"source": "workspace", "path": "tools/disclosure-scan/terms.example.json", "dest": "tools/disclosure-scan/terms.example.json", "class": "managed", "edition_strip": true},
-    {"source": "workspace", "path": "tools/tests", "dest": "tools/tests", "class": "managed", "edition_strip": true, "exclude": ["__pycache__/**", "*.ps1", "test_cadence.py", "test_nested_repo_run.py"]}
+    {"source": "workspace", "path": "tools/tests", "dest": "tools/tests", "class": "managed", "edition_strip": true, "exclude": ["__pycache__/**", "*.ps1", "test_cadence.py", "test_nested_repo_run.py", "test_close_checks.py", "test_eol_roundtrip.py", "test_field_coverage.py"]}
   ]
 }

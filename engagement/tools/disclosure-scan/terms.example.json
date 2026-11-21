@@ -1,0 +1,80 @@
+{
+  "_note": "Copy to terms.local.json (gitignored) and replace every value. All values here are fake.",
+  "schema": "disclosure-terms/1",
+  "internal_domains": [
+    {
+      "id": "dom-01",
+      "domain": "corp.example.invalid"
+    }
+  ],
+  "host_patterns": [
+    {
+      "id": "hp-01",
+      "regex": "\\bbuild-\\d+\\.example\\b"
+    }
+  ],
+  "email_domains": [
+    {
+      "id": "ed-01",
+      "domain": "example.invalid"
+    }
+  ],
+  "identities": [
+    {
+      "id": "id-01",
+      "names": [
+        "Jane Q Doe"
+      ],
+      "local_parts": [
+        "jane.doe"
+      ],
+      "usernames": [
+        "jane.doe"
+      ]
+    }
+  ],
+  "citation_domains": [
+    "example.invalid"
+  ],
+  "customers": [
+    {
+      "id": "cust-01",
+      "name": "Acme Mutual",
+      "variants": [
+        "AcmeMutual",
+        "Acme Mut."
+      ],
+      "public_citation": null
+    }
+  ],
+  "partners": [
+    {
+      "id": "ptr-01",
+      "name": "Example Partners LLP",
+      "variants": []
+    }
+  ],
+  "client_paths": [
+    {
+      "id": "cp-01",
+      "root": "knowledge/sources/example-intel/held-docs/",
+      "reference_terms": [
+        "example-intel/held-docs",
+        "held-docs"
+      ]
+    }
+  ],
+  "private_terms": [
+    {
+      "id": "pt-01",
+      "term": "outputs/",
+      "kind": "literal"
+    }
+  ],
+  "exclude_globs": [
+    ".git/**",
+    "**/node_modules/**",
+    "**/__pycache__/**"
+  ],
+  "max_bytes": 5242880
+}

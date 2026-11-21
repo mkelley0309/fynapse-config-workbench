@@ -1,0 +1,333 @@
+{
+  "edition": "engagement",
+  "files": {
+    ".claude/rules/control-plane.md": {
+      "class": "managed",
+      "sha256": "4a46d12a652e730365521bdee5f55f66793fbb329b381ecdc406e8b91a9ea331",
+      "source": "workspace"
+    },
+    ".claude/rules/tools.md": {
+      "class": "managed",
+      "sha256": "6c53e4ef895c05eba8f082eee4429edcb97c5798db71c0d238ad55c7508e0a2d",
+      "source": "workspace"
+    },
+    ".claude/skills/assignment/SKILL.md": {
+      "class": "managed",
+      "sha256": "870eac0169f71fc49a61f1e38829dc42cbb34087690b25fd3e4161ae3c6c1e70",
+      "source": "workspace"
+    },
+    ".claude/skills/assignment/actions/complete.md": {
+      "class": "managed",
+      "sha256": "2a27a8ce76088f7588027e2e4e7de9278a8bc99db1cdbae4e2a6d84545ca5d27",
+      "source": "workspace"
+    },
+    ".claude/skills/assignment/actions/initiate.md": {
+      "class": "managed",
+      "sha256": "204e30b577815c7dccfd1075b81664f5574d09baad656b697c9bac0029bb2111",
+      "source": "workspace"
+    },
+    ".claude/skills/intake/SKILL.md": {
+      "class": "managed",
+      "sha256": "fce2de957264ce7b7e5dd5fc9a83d58588a90423b5c7747d9d20cc3c3cf51329",
+      "source": "workspace"
+    },
+    ".claude/skills/intake/actions/capture.md": {
+      "class": "managed",
+      "sha256": "c00a1ca9bf4e56f66081ea2670b4b3597afb5be8496ffa232af4e0709c8e87be",
+      "source": "workspace"
+    },
+    ".claude/skills/intake/actions/check.md": {
+      "class": "managed",
+      "sha256": "9c1cbf822077bb285a7f59291d5315961b6873ebc6e0e8f11a569d656c96eb4d",
+      "source": "workspace"
+    },
+    ".claude/skills/intake/actions/drop.md": {
+      "class": "managed",
+      "sha256": "0e211b316fc740a33227995a2e159246bcbda44113c99a3f957753073b3736a3",
+      "source": "workspace"
+    },
+    ".claude/skills/intake/actions/triage.md": {
+      "class": "managed",
+      "sha256": "9121203fd4a3cd67b3de18695c4cdfc474404924e9a8d94aa7fb23f03df99204",
+      "source": "workspace"
+    },
+    ".claude/skills/objective/SKILL.md": {
+      "class": "managed",
+      "sha256": "cfd473a5223821643c9ddf69c5f2000164a08cbd6150774b24f477098f094fee",
+      "source": "workspace"
+    },
+    ".claude/skills/objective/actions/checkpoint.md": {
+      "class": "managed",
+      "sha256": "0487e82bca387c89a11f2c73f696089f43838afc56acac5b76f79974c0b93c5b",
+      "source": "workspace"
+    },
+    ".claude/skills/objective/actions/complete.md": {
+      "class": "managed",
+      "sha256": "c48e3b96184542bac2fd29e7f4ccc966d62d291a31cd59f8487235c29a5ec77a",
+      "source": "workspace"
+    },
+    ".claude/skills/objective/actions/initiate.md": {
+      "class": "managed",
+      "sha256": "a8efa171bf5d91e51b5aa8c8a7fefb410a068a50b9a44ea0c54247d1d287cfc5",
+      "source": "workspace"
+    },
+    ".claude/skills/objective/actions/log-decision.md": {
+      "class": "managed",
+      "sha256": "805bbb147d6485af621bfe44e1c4185a5cae9cd6691a2b6f3efa4e341192d355",
+      "source": "workspace"
+    },
+    ".claude/skills/objective/actions/next.md": {
+      "class": "managed",
+      "sha256": "9bd99d8052a2cca5bd241de4ec261eab4495c7fe158a4900e1acc27ac866957e",
+      "source": "workspace"
+    },
+    ".claude/skills/objective/actions/status.md": {
+      "class": "managed",
+      "sha256": "9f30aa25e8aa63c1aa2d4c2939dc6fc0a19f4e35e36d84e3ae8732d08eae06c9",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/SKILL.md": {
+      "class": "managed",
+      "sha256": "70415cbd6f666b464a4f1773c04229158112a73a5857e0d425f078474097010b",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/README.md": {
+      "class": "managed",
+      "sha256": "a74a76b30e3b6e06a542e8c9fdb488953ea18820fdd1ad4d6ed01f48274e57ac",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/assess.md": {
+      "class": "managed",
+      "sha256": "1c90c477cf7d1f33b1ce4350dd2765c57f65b2f5b5aee1c75068b31ff8669836",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/blueprint.md": {
+      "class": "managed",
+      "sha256": "e644e71884a8dbe26b834bbe5fdff1f983e2364ddec7af1441e20b68e0120be0",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/cleanup.md": {
+      "class": "managed",
+      "sha256": "454ada288a7e8fa0a4a8cb3363635d98ff9b652b7eae965f43c2ec1886dce5b3",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/design.md": {
+      "class": "managed",
+      "sha256": "da29c819d9f3e397e4dd1079f982d18548093317fbe492cb4d9b922a60042cbb",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/implement.md": {
+      "class": "managed",
+      "sha256": "5d321cad8115f76313f62fe7c283542c3c367e5c7d69c23d7268dfef967a86e4",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/initiate.md": {
+      "class": "managed",
+      "sha256": "ccbebb8d9dfbdf55db4f60632ef7a53ad18881b43d9e7488136c9b30478cf549",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/questions.md": {
+      "class": "managed",
+      "sha256": "4742164a8427daf58db4b5201bc91dde550e7d9feaac6959b4bad4787a729755",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/research.md": {
+      "class": "managed",
+      "sha256": "6bf5bba9ed6a53dbd6790e0135839932c14e0abd674810bfd6b855aa7e7af706",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/actions/validate.md": {
+      "class": "managed",
+      "sha256": "1d72e3ce72171816092a022cb526fd0a2c0dc4a0d412ed8e1ae4875f6f540e85",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/framework-templates.md": {
+      "class": "managed",
+      "sha256": "2f1c1ba4656b28e0dc04275e5111fdf0959214fce752ffd4d34bdf3528125629",
+      "source": "workspace"
+    },
+    ".claude/skills/workstream/framework.md": {
+      "class": "managed",
+      "sha256": "83834a2d6a1b5e6aa3f721c435eb93337e14ce0fcf93e13d7c31f39a342c18c0",
+      "source": "workspace"
+    },
+    "control-plane/CLAUDE.md": {
+      "class": "managed",
+      "sha256": "a995d614b8e2355bb87ed90c304ba4e9d2c104f82c0881dbfc4ead63e993dc90",
+      "source": "workspace"
+    },
+    "tools/CLAUDE.md": {
+      "class": "managed",
+      "sha256": "4953666f0eb02441b0e0d824adb0ec7b21a6ca45947ab35e66d02f8e53f430e3",
+      "source": "workspace"
+    },
+    "tools/README.md": {
+      "class": "managed",
+      "sha256": "056b48dcd86ea224b1e70292b383bacff05bb494e016f88027e8e3e07378a7b4",
+      "source": "workspace"
+    },
+    "tools/assignment.py": {
+      "class": "managed",
+      "sha256": "5b3dfeb7c163ccbfb74fae881af6d663bb056a6fe532c5a6fb2f02cc05588692",
+      "source": "workspace"
+    },
+    "tools/disclosure-scan/README.md": {
+      "class": "managed",
+      "sha256": "09df2ce3441e2e78676929aa5dfeaceca89c3b05ce5191c570f484e16db7be2b",
+      "source": "workspace"
+    },
+    "tools/disclosure-scan/disclosure_scan.py": {
+      "class": "managed",
+      "sha256": "581420cd3b81fe38e3c519db0c089dea12800a48945d1983c89aff10c4a95028",
+      "source": "workspace"
+    },
+    "tools/disclosure-scan/terms.example.json": {
+      "class": "managed",
+      "sha256": "258ed2ccf65a560c78a6c96db7e7162b38565c5f68bb1d75cac17e0a5476c816",
+      "source": "workspace"
+    },
+    "tools/eol-churn.py": {
+      "class": "managed",
+      "sha256": "2020ce1093757dcec56d93ac4746b52c46c8a63bda9775246c26f19746aa9f19",
+      "source": "workspace"
+    },
+    "tools/gate.py": {
+      "class": "managed",
+      "sha256": "0b15b5b1fb8741277daab7fcb87d10977543e6a8e39f5ef146c2420bad4f1d04",
+      "source": "workspace"
+    },
+    "tools/harnesslib.py": {
+      "class": "managed",
+      "sha256": "b5af561b8cfd9e5e514615a9d54a39318c737195c78ab9df23391b99ab5bf5f3",
+      "source": "workspace"
+    },
+    "tools/intake.py": {
+      "class": "managed",
+      "sha256": "5282bc7e8e37c77b28c725b8cfd45625d3f1417061fa9e31c69cc09b613af679",
+      "source": "workspace"
+    },
+    "tools/objective.py": {
+      "class": "managed",
+      "sha256": "13601d17605010a6c595d31ecaf5d898c7b467ce4443e75802045f27dcb7ae80",
+      "source": "workspace"
+    },
+    "tools/template-sync/README.md": {
+      "class": "managed",
+      "sha256": "c3e949571c96e08084dcfefe0eccaffa1839ca43fe46008510b902479d838f1a",
+      "source": "workspace"
+    },
+    "tools/template-sync/template_sync.py": {
+      "class": "managed",
+      "sha256": "07c428f3e36a25b588d3de32326583e871e27797deae37c0ed9677cab17287bb",
+      "source": "workspace"
+    },
+    "tools/tests/test_assignment.py": {
+      "class": "managed",
+      "sha256": "5a62302dfa1996e3d575bd7893596908ec58b3c51a872a3f5dae459b873179a2",
+      "source": "workspace"
+    },
+    "tools/tests/test_close_checks.py": {
+      "class": "managed",
+      "sha256": "e04c9e7bbdcb2c915da4a11fe9c7c399a9b9a375ca7dac3fcf1d6a99e91e4ccd",
+      "source": "workspace"
+    },
+    "tools/tests/test_disclosure_scan.py": {
+      "class": "managed",
+      "sha256": "b891ed5b1a5e417751790be30bff01f62d4142f7bafbd9d329479d6fe7a59393",
+      "source": "workspace"
+    },
+    "tools/tests/test_eol_churn.py": {
+      "class": "managed",
+      "sha256": "91401cd644f9c8aad10892e6e857c0c6aed11d137e34cba7cf252b894b568053",
+      "source": "workspace"
+    },
+    "tools/tests/test_eol_roundtrip.py": {
+      "class": "managed",
+      "sha256": "fd5f61df78e183e036e077a69514e3a09d6e01b11d0a8eb262d35765f745befd",
+      "source": "workspace"
+    },
+    "tools/tests/test_field_coverage.py": {
+      "class": "managed",
+      "sha256": "d771bd541d263f6b1243263623d33b5d3caee8a3897aa315d613ae19373a9b3b",
+      "source": "workspace"
+    },
+    "tools/tests/test_gate.py": {
+      "class": "managed",
+      "sha256": "034266cbc91ba4594f428f0f73cdc1b884474b90e579eaecfb6494248b6f7d02",
+      "source": "workspace"
+    },
+    "tools/tests/test_handoff_fixture.py": {
+      "class": "managed",
+      "sha256": "5095df9104611e48d7e005257d9f3c38f9e6c5187585fd121f668e891b9f3979",
+      "source": "workspace"
+    },
+    "tools/tests/test_harnesslib.py": {
+      "class": "managed",
+      "sha256": "a0d11518268d52dec9c35f7d3d45568c663a701cca0f88b2d9403c8b9286efd4",
+      "source": "workspace"
+    },
+    "tools/tests/test_intake.py": {
+      "class": "managed",
+      "sha256": "0be0bce3efd6a19688e7728a8a6179c02e378f0bb7f5e969eff6501b089bbb10",
+      "source": "workspace"
+    },
+    "tools/tests/test_intake_eol.py": {
+      "class": "managed",
+      "sha256": "3df894143452bca67a7c6b143475e2635e56fc90b2317247f9128da70039ea14",
+      "source": "workspace"
+    },
+    "tools/tests/test_objective.py": {
+      "class": "managed",
+      "sha256": "646e48ff2f10110c33f5a205f42cd0e8fb24eb4c9eb07219cf0a25e1a26d2e4b",
+      "source": "workspace"
+    },
+    "tools/tests/test_objective_next.py": {
+      "class": "managed",
+      "sha256": "72a06bf3ed20c8703d707e3f1def13543e222b028b0339a5f1350428a3a4a4ab",
+      "source": "workspace"
+    },
+    "tools/tests/test_root_fixes.py": {
+      "class": "managed",
+      "sha256": "858af07c97bd00191feb9660ef95bc4e349f6015188a85eb27464e4d867874dd",
+      "source": "workspace"
+    },
+    "tools/tests/test_template_sync.py": {
+      "class": "managed",
+      "sha256": "aed802467a64292d9c7ac8a23b5d17ecd0ccae7c6bb49568f499f7e8b62f24b1",
+      "source": "workspace"
+    },
+    "tools/tests/test_views.py": {
+      "class": "managed",
+      "sha256": "9e6e9f371ae4a54bb55a9e14882327d8f52224b6f691a99e2038697b3ed45c9e",
+      "source": "workspace"
+    },
+    "tools/tests/test_workstream.py": {
+      "class": "managed",
+      "sha256": "e8c59b663cdb1f69342f4bd7537e8501f910b7827f154a1404cb522621ab2d42",
+      "source": "workspace"
+    },
+    "tools/tests/wsfix.py": {
+      "class": "managed",
+      "sha256": "ad176aa66f160f2ccb62673fc4fe112b5460ca596738cd28e1f88c06fed8faeb",
+      "source": "workspace"
+    },
+    "tools/workstream.py": {
+      "class": "managed",
+      "sha256": "7ac94d173f23c8bc57971a4867770243789dfdf24be8d2d45b39f8b39faa2049",
+      "source": "workspace"
+    }
+  },
+  "manifest_sha256": "8aa821662b1e5fb4e6b5249b14a7897727a9fe5350d9a33b1fce69d3f1e7e38d",
+  "schema": "template-sync-lock/1",
+  "sources": {
+    "knowledge": {
+      "commit": "pending",
+      "repo_id": "knowledge"
+    },
+    "workspace": {
+      "commit": "6fca160ab02a78bd9ce91a313be235724873954c",
+      "commit_date": "2026-11-21T16:02:51-05:00",
+      "repo_id": "Workspace"
+    }
+  }
+}

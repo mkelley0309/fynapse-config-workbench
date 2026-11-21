@@ -38,7 +38,6 @@ common: --terms FILE (default tools/disclosure-scan/terms.local.json)
 - Reported paths are workspace-relative in every mode (`diff` in a nested repo prefixes that repo's path, e.g. `knowledge/...`), so `waivers.json` and `client_paths` use one path form.
 - `diff`: scans only added lines, reports new-file line numbers; removed lines are never flagged. Added files also get a path scan. Binary diffs go to `skipped`. Covers git repos only: workspace root by default, nested repos via `--cwd`.
 - A `client_paths` root with files in the diff yields one presence finding (with count) and its contents are not scanned.
-- `personal/` is not a default target; pass it explicitly to scan it.
 - `--json` prints the report to stdout; `--out FILE` writes it to a file.
 
 ## Exit codes

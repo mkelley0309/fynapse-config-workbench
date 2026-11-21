@@ -173,7 +173,7 @@
     },
     "tools/disclosure-scan/README.md": {
       "class": "managed",
-      "sha256": "09df2ce3441e2e78676929aa5dfeaceca89c3b05ce5191c570f484e16db7be2b",
+      "sha256": "88191e0750cfcf9e69e9af2e10676c986a9a3e5e73dd0347ce2227bdd87be58f",
       "source": "workspace"
     },
     "tools/disclosure-scan/disclosure_scan.py": {
@@ -310,8 +310,8 @@
       "repo_id": "knowledge"
     },
     "workspace": {
-      "commit": "6fca160ab02a78bd9ce91a313be235724873954c",
-      "commit_date": "2026-11-21T16:02:51-05:00",
+      "commit": "f29eb9000b8041c78e04ecb822bc7044500cb5b9",
+      "commit_date": "2026-11-21T16:22:13-05:00",
       "repo_id": "Workspace"
     }
   }

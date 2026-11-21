@@ -12,3 +12,4 @@ Engagements never pull from the harness root. See [`CLAUDE.md`](./CLAUDE.md) for
 
 - Hop-1 source `knowledge` (scoped vault): pending — consumer contract not yet published.
 - B9 plugin-disable probe: pending (run by the maintainer).
+- Seeded `engagement/.claude/` files (`settings.json`, `rules/engagement.md`, `skills/scoping/`): pending; add them and their `engagement.manifest.json` entries.

@@ -1,0 +1,26 @@
+# Secrets, credentials and instance connection files
+.env
+.env.*
+secrets/
+*.instance.json
+instance-config/
+*.local
+
+# Python
+venv/
+.venv/
+*.egg-info
+__pycache__/
+*.py[cod]
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Claude Code
+.claude/logs/
+.claude/settings.local.json
+
+# Scratch
+_working/
+**/_working/

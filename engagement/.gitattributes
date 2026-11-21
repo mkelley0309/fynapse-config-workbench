@@ -1,0 +1,5 @@
+control-plane/assignments/_log.md merge=union
+_harness/friction.md merge=union
+*.py eol=lf
+*.json eol=lf
+*.md eol=lf

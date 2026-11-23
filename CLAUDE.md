@@ -64,13 +64,7 @@ From the `wb` root, `WORKSPACE_ROOT` unset. Needs `git` and the harness root at 
 
 ## Configuration knowledge
 
-Moves into the `fynapse-config` skill in P3.
-
-- **Output envelope:** `{ "version": "<instance-version>", "configuration": { /* ConfigurationExternalDTO */ } }`, uploaded with `PUT /api/v1/configuration/bulk` (`SOFT_MERGE` default, `HARD_MERGE` optional). `version` comes from the target instance's export; never hard-code it.
-- **Build loop:** requirements → parts → assemble → validate → review → (manual upload).
-- **BED:** one business event definition per instance. No documented cap on BED field count; only field-name length (128 characters) is limited. Sub-business variation = multiple transactional entities mapped to the single BED via Flow.
-- **`ConfigurationExternalDTO` sections include:** `businessCalendars`, `fiscalCalendars`, `businessEventDefinition` (one per instance), `businessEventTypes`, `accountingConfigurations`, `dimensionSets`, `nodes` (+`nodeConfigs`), `journalDefinition`, `journalTypes`, `journalMapping`, `postingComponents` (+`postingPatterns`), `postingComponentIdentifications`, `accountLookups`, `nodeValues`, functional/reporting currencies + FX, `featureFlags`, `flows`, `entities`, and extract/D365 configuration.
-- **Generation order (placeholder; superseded by the assemble order in P3):** `journalDefinition` → `businessEventDefinition` → `accountingConfigurations` → `nodes` → `postingComponents` → `accountLookups`.
+See `engagement/.claude/skills/fynapse-config/SKILL.md`; the facts live there.
 
 ## Safety
 

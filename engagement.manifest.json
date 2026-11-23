@@ -13,6 +13,7 @@
     {"source": "wb", "path": "engagement/control-plane/CLAUDE.md", "dest": "control-plane/CLAUDE.md", "class": "managed", "edition_strip": false},
     {"source": "wb", "path": "engagement/.claude/rules/engagement.md", "dest": ".claude/rules/engagement.md", "class": "managed", "edition_strip": false},
     {"source": "wb", "path": "engagement/.claude/skills/scoping", "dest": ".claude/skills/scoping", "class": "managed", "edition_strip": false},
+    {"source": "wb", "path": "engagement/.claude/skills/fynapse-config", "dest": ".claude/skills/fynapse-config", "class": "managed", "edition_strip": false},
     {"source": "wb", "path": "engagement/tools", "dest": "tools", "class": "managed", "edition_strip": false, "exclude": ["__pycache__/**"]},
 
     {"source": "wb", "path": "engagement/CLAUDE.md", "dest": "CLAUDE.md", "class": "seeded", "edition_strip": false},

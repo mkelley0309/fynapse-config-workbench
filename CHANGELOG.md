@@ -6,6 +6,8 @@ Every release entry has an `### Upgrading` subsection: what an existing engageme
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-11-23
+
 ### Changed
 
 - Repository identity rewritten from a CLI utility to a client-free template host (`CLAUDE.md`, `README.md`).
@@ -21,8 +23,8 @@ Every release entry has an `### Upgrading` subsection: what an existing engageme
 - `engagement/tools/fynapse/config_assemble.py`: parts → `config/build/<env>.bulk.json`; 28 DTO sections (+ `accounts` extension), per-section keys, duplicate-key and singleton checks, `version` from the instance export, deterministic output in dependency order.
 - `engagement/tools/fynapse/config_validate.py`: documented-rule errors V1–V19 (each with its doc `file:line`), V20 export diff report, V21–V24 warnings, V25–V26 `unverified (vault)` warnings.
 - `tests/test_config_assemble.py`, `tests/test_config_validate.py`.
-- `fynapse-config` skill (drafted at `skill-draft/fynapse-config/SKILL.md`; moves to `engagement/.claude/skills/fynapse-config/` before release).
+- `engagement/.claude/skills/fynapse-config/` skill (managed), with its `engagement.manifest.json` entry.
 
 ### Upgrading
 
-- No engagement repos exist yet; nothing to do.
+- First release. Instantiate with `tools/engagement_new.py --ref v0.1.0`. No engagement repos exist yet; nothing else to do.

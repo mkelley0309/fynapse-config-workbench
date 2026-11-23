@@ -1,0 +1,50 @@
+[
+  {
+    "name": "FID_BROKER_PREMIUM_TAX_RECEIVABLE",
+    "description": "Premium Tax Receivable"
+  },
+  {
+    "name": "FID_BROKER_PREMIUM_TAX_RECEIVABLE_SETTLED",
+    "description": "Premium Tax Receivable Settlement"
+  },
+  {
+    "name": "FID_BROKER_COMMISSION_TAX",
+    "description": "Commission Tax"
+  },
+  {
+    "name": "FID_BROKER_COMMISSION_TAX_SETTLED",
+    "description": "Commission Tax Settlement"
+  },
+  {
+    "name": "FID_BROKER_PREMIUM_RECEIVABLE",
+    "description": "Premium booked by the insurance broker"
+  },
+  {
+    "name": "FID_BROKER_COMMISSION",
+    "description": "Commission Payable"
+  },
+  {
+    "name": "FID_BROKER_PREMIUM_RECEIVABLE_SETTLED",
+    "description": "Settlement of Premium Receivable"
+  },
+  {
+    "name": "FID_BROKER_PREMIUM_PAYABLE",
+    "description": "Payable for the premium"
+  },
+  {
+    "name": "FID_BROKER_COMMISSION_SETTLED",
+    "description": "Commission Settlement"
+  },
+  {
+    "name": "FID_BROKER_PREMIUM_PAYABLE_SETTLED",
+    "description": "Settlement of Payable"
+  },
+  {
+    "name": "FID_BROKER_PREMIUM_PAYABLE_PAYMENT",
+    "description": "Payment of Settlement Process"
+  },
+  {
+    "name": "FID_BROKER_REVENUE RECOGNITION",
+    "description": "Revenue recognition once performance obligation satisfied"
+  }
+]

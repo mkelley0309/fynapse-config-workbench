@@ -1,0 +1,1178 @@
+[
+  {
+    "code": "ASC944_PREMIUM_WRITTEN_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Premium: Gross Written Premium Due",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Premium Revenues",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Premium Receivable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_WRITTEN_PAYABLE",
+    "journalType": "Perm",
+    "description": "Ceded Premium: Gross Written Premium Due",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Premium Revenues",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_TRANSITION",
+    "journalType": "Perm",
+    "description": "Policy Acquisition Costs: Transition Balance Load",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Retained Earnings",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "DPAC At Transition",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_UNLOCK",
+    "journalType": "Perm",
+    "description": "Direct Policy Acquisition Expense: Unlock",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Direct Policy Acquisition Cost Unlock",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "DPAC Unlocked",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_IBNR_RESERVE_ADJUSTMENT",
+    "journalType": "Perm",
+    "description": "Incurred But Not Reported Reserve Adjustment",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Aggregate Benefits Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Changes in IBNR",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_CF_CHANGES",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Changes Related to Actuarial Model Assumption Changes",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Cash Flow Changes",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_DEREC",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Changes Related to Expected Derecognition Events",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Derecognition",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_DISC_RATE_CHANGE",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Changes Related to Changes in Current vs. Locked In Rates",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Discount Rate Change",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "OCI Discount Rate Changes",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_DISC_RATE_UNLOCK",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Discount Rate Unlock from Current to Locked In Rates",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Discount Rate Unlock",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "OCI Discount Rate Changes",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_EXP_CHANGES",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Changes Related to Changes in Expected Experience Variance",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Experience Variance",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_INT_ACCRUAL",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Balance Interest Accrual",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Interest Accrual",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_ISSUANCES",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Changes Related to Future Expectations of New Business Issuances",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB New Business Issuances",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_NETPREM_COLLECTED",
+    "journalType": "Perm",
+    "description": "Policyholder Benefits Reserve Changes From Receipt of Net Premiums",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Net Premium Received",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_LFPB_TRANSITION",
+    "journalType": "Perm",
+    "description": "Liability for Policyholder Benefits Transition Balance Load",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "LFPB Model Adjustments",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Retained Earnings",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_BENEFIT_PAID",
+    "journalType": "Perm",
+    "description": "Market Risk Benefit Paid",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB Benefit Paid",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_CLAIM_APPROVED_PAYABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Claim: Claim Approved",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Claims Due and Unpaid",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Case Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_CLAIM_APPROVED_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Ceded Claim: Claim Approved",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Case Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_CLAIM_CASE_RESERVE",
+    "journalType": "Perm",
+    "description": "Claim Incurred: Case Reserve Adjustment",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Aggregate Benefits Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Case Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_CLAIM_LOSS_ADJUSTMENT",
+    "journalType": "Perm",
+    "description": "Claims: Appraisal Loss Adjustment",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Case Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Case Reserve Adjusted/Resisted",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_CLAIM_SETTLED_PAYABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Claim: Claim Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Claims Due and Unpaid",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_CLAIM_SETTLED_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Ceded Claim: Claim Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_CLAIM_SUBROGATION",
+    "journalType": "Perm",
+    "description": "Claim Subrogation Received from Third Party Carrier",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Claims Due and Unpaid",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_ADJUSTMENT",
+    "journalType": "Perm",
+    "description": "Policy Acquisition Costs: Experience Adjustment",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "DPAC Deferral Adjustments",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Deferred Policy Acquisition Cost Adjustments",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_AMORT",
+    "journalType": "Perm",
+    "description": "Deferred Policy Acquisition Costs: Amortization",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Deferred Policy Acquisition Costs Current Year Amortization",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "DPAC Amortized",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_DEFERRAL",
+    "journalType": "Perm",
+    "description": "Policy Acquisition Costs: Expense Deferral",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "DPAC Deferral",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Deferred Policy Acquisition Costs",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_DUE_PAYABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Policy Acquisition Costs: Expense Due",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Expense Payable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Expense Paid",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_DUE_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Ceded Policy Acquisition Costs: Expense Due",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Expense Paid",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_SETTLED_PAYABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Policy Acquisition Costs: Expense Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Expense Payable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_DPAC_SETTLED_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Ceded Policy Acquisition Costs: Expense Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_CF_CHANGES",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Changes Related to Actuarial Model Assumption Changes",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB Cash Flow Changes",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_CREDIT_CHANGES",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Changes Related to Credit Risk Changes",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "OCI Credit Rate Changes",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "MRB Changes in Credit Risk",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_CREDIT_RISK_UNLOCK",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Changes Related to Credit Risk Unlock",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB Credit Risk Unlock",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "OCI Credit Rate Changes",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_EXP_CHANGES",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Changes Related to Changes in Expected Experience Variance",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB Experience Variance",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_FEE_COLLECTED",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Changes From Receipt of Attributable Fees",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB Fee Collected",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_INT_ACCRUAL",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Balance Interest Accrual",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB Interest Accrual",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_INT_RATE_CHANGES",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Changes Related to Changes in Interest Rates",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB Interest Rate Changes",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_ISSUANCES",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Reserve Changes Related to Future Expectations of New Business Issuances",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "MRB New Business Issuances",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Benefit Expense Change in Reserves",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_MRB_TRANSITION",
+    "journalType": "Perm",
+    "description": "Market Risk Benefits Transition Balance Load",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Retained Earnings",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "MRB Model Adjustments",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_EARNED_PAYABLE",
+    "journalType": "Perm",
+    "description": "Ceded Premium: Premium Earned",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Unearned Premium Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Earned Premium",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_EARNED_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Premium: Premium Earned",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Earned Premium",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Unearned Premium Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_EXPENSE_PAYABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Premium Expense: Expense Due",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Premium Revenues",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "General Expenses Payable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_EXPENSE_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Ceded Premium Expense: Expense Due",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Premium Revenues",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_EXPENSE_SETTLED_PAYABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Premium Expense: Expense Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "General Expenses Payable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_EXPENSE_SETTLED_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Ceded Premium Expense: Expense Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_SETTLED",
+    "journalType": "Perm",
+    "description": "Direct Premium: Premium Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Premium Receivable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_SETTLED_ASSUMED",
+    "journalType": "Perm",
+    "description": "Assumed Premium: Premium Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "legalEntity",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_SETTLED_CEDED",
+    "journalType": "Perm",
+    "description": "Ceded Premium: Premium Settled",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Reinsurance Recoverable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_UNEARNED_PAYABLE",
+    "journalType": "Perm",
+    "description": "Ceded Premium Reserve: UPR Deferral",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Unearned Premium",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Unearned Premium Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  },
+  {
+    "code": "ASC944_PREMIUM_UNEARNED_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Direct/Assumed Premium Reserve: UPR Deferral",
+    "accountingConfigName": "ASC 944",
+    "postingPatterns": [
+      {
+        "postingCode": "Unearned Premium Reserve",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      },
+      {
+        "postingCode": "Unearned Premium",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      }
+    ]
+  }
+]

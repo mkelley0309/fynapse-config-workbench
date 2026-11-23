@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Management",
+    "description": "Management Reporting Basis",
+    "fiscalCalendarName": "Acme GB Fiscal Calendar",
+    "businessCalendarName": "Acme GB Business Calendar",
+    "dimensionSetName": "Management"
+  },
+  {
+    "name": "NAIC",
+    "description": "NAIC US Statutory Basis",
+    "fiscalCalendarName": "Acme US Fiscal Calendar",
+    "businessCalendarName": "Acme US Business Calendar",
+    "dimensionSetName": "NAIC Statutory Reporting"
+  },
+  {
+    "name": "ASC 944",
+    "description": "USGAAP Insurance Accounting Basis",
+    "fiscalCalendarName": "Acme US Fiscal Calendar",
+    "businessCalendarName": "Acme US Business Calendar",
+    "dimensionSetName": "USGAAP"
+  },
+  {
+    "name": "IFRS 17",
+    "description": "IFRS Insurance Accounting Basis",
+    "fiscalCalendarName": "Acme GB Fiscal Calendar",
+    "businessCalendarName": "Acme GB Business Calendar",
+    "dimensionSetName": "IFRS"
+  },
+  {
+    "name": "ASC 606",
+    "description": "USGAAP Revenue Recognition",
+    "fiscalCalendarName": "Acme US Fiscal Calendar",
+    "businessCalendarName": "Acme US Business Calendar",
+    "dimensionSetName": "USGAAP"
+  }
+]

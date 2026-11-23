@@ -1,0 +1,154 @@
+[
+  {
+    "name": "PREMIUM_WRITTEN",
+    "description": "Premium: Gross Written Premium"
+  },
+  {
+    "name": "PREMIUM_EXPENSE",
+    "description": "Premium: Expense Due"
+  },
+  {
+    "name": "PREMIUM_EARNED",
+    "description": "Premium Earned"
+  },
+  {
+    "name": "MRB_TRANSITION",
+    "description": "Market Risk Benefits: Transition Balance Load"
+  },
+  {
+    "name": "MRB_ISSUANCES",
+    "description": "Market Risk Benefits: New Business Issuances"
+  },
+  {
+    "name": "MRB_INT_RATE_CHANGES",
+    "description": "Market Risk Benefits: Effects of Changes to Interest Rates"
+  },
+  {
+    "name": "MRB_INT_ACCRUAL",
+    "description": "Market Risk Benefits: Interest Accrual"
+  },
+  {
+    "name": "MRB_FEE_REC",
+    "description": "Market Risk Benefits: Attributable Fees Received"
+  },
+  {
+    "name": "MRB_EXP_CHANGES",
+    "description": "Market Risk Benefits: Changes in Expected Experience Variance"
+  },
+  {
+    "name": "MRB_CREDIT_UNLOCK",
+    "description": "Market Risk Benefits: Effects of Changes in Credit Ratings - Unlock"
+  },
+  {
+    "name": "MRB_CREDIT_CHANGES",
+    "description": "Market Risk Benefits: Effects of Changes in Credit Ratings"
+  },
+  {
+    "name": "MRB_CF_CHANGES",
+    "description": "Market Risk Benefits: Changes to Cash Flow Assumptions"
+  },
+  {
+    "name": "MRB_BENEFIT_PAID",
+    "description": "Market Risk Benefits: Benefits Paid"
+  },
+  {
+    "name": "LFPB_TRANSITION",
+    "description": "Liability for Policyholder Benefits: Transition Balance Load"
+  },
+  {
+    "name": "LFPB_NETPREM_REC",
+    "description": "Liability for Policyholder Benefits: Net Premiums Received"
+  },
+  {
+    "name": "LFPB_ISSUANCES",
+    "description": "Liability for Policyholder Benefits: New Business Issuances"
+  },
+  {
+    "name": "LFPB_INT_ACCRUAL",
+    "description": "Liability for Policyholder Benefits: Interest Accrual"
+  },
+  {
+    "name": "LFPB_EXP_CHANGES",
+    "description": "Liability for Policyholder Benefits: Changes in Expected Experience Variance"
+  },
+  {
+    "name": "CLAIM_SUBROGATION",
+    "description": "Claim: Subrogation Received from Third Party Carrier"
+  },
+  {
+    "name": "CLAIM_SETTLED",
+    "description": "Claim: Settlement Paid"
+  },
+  {
+    "name": "CLAIM_LOSS_ADJUSTMENT",
+    "description": "Claim: Loss Adjusted After Appraisal"
+  },
+  {
+    "name": "CLAIM_CASE_RESERVE",
+    "description": "Claim: Filed and Awaiting Approval"
+  },
+  {
+    "name": "CLAIM_APPROVED",
+    "description": "Claim: Approved"
+  },
+  {
+    "name": "LFPB_DISC_RATE_UNLOCK",
+    "description": "Liability for Policyholder Benefits: Discount Rates Unlock"
+  },
+  {
+    "name": "LFPB_DISC_RATE_CHANGE",
+    "description": "Liability for Policyholder Benefits: Effects of Changes to Discount Rates"
+  },
+  {
+    "name": "LFPB_DEREC",
+    "description": "Liability for Policyholder Benefits: Derecognition"
+  },
+  {
+    "name": "LFPB_CF_CHANGES",
+    "description": "Liability for Policyholder Benefits: Changes to Cash Flow Assumptions"
+  },
+  {
+    "name": "IBNR_RESERVE_ADJ",
+    "description": "Incurred But Not Reported: Reserve Adjustment"
+  },
+  {
+    "name": "DPAC_UNLOCK",
+    "description": "Direct Policy Acquisition Expense: Unlock"
+  },
+  {
+    "name": "DPAC_TRANSITION",
+    "description": "Direct Policy Acquisition Expense: Transition Balance Load"
+  },
+  {
+    "name": "DPAC_SETTLED",
+    "description": "Direct Policy Acquisition Expense: Settled Expense"
+  },
+  {
+    "name": "DPAC_EXP_ADJ",
+    "description": "Direct Policy Acquisition Expense: Changes in Expected Experience Variance"
+  },
+  {
+    "name": "DPAC_DUE",
+    "description": "Direct Policy Acquisition Expense: Expense Due"
+  },
+  {
+    "name": "DPAC_DEFERRAL",
+    "description": "Direct Policy Acquisition Expense: Deferral"
+  },
+  {
+    "name": "DPAC_AMORT",
+    "description": "Direct Policy Acquisition Expense: Amortization"
+  },
+  {
+    "name": "PREMIUM_UNEARNED",
+    "description": "Premium: Unearned Premium Adjustment"
+  },
+  {
+    "name": "PREMIUM_PAYMENT",
+    "description": "Premium: Payment Received"
+  },
+  {
+    "name": "PREMIUM_EXPENSE_SETTLED",
+    "description": "Premium: Expense Paid"
+  }
+]

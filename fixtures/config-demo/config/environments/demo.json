@@ -1,0 +1,5 @@
+{
+  "instance": "demo",
+  "version": "v20260515",
+  "export": "config/instance/demo.export.json"
+}

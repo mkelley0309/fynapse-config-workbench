@@ -1,0 +1,18 @@
+[
+  {
+    "postingCode": "General Expenses Payable",
+    "accountLookupPatterns": [
+      {
+        "account": "248000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Bank",
+    "accountLookupPatterns": [
+      {
+        "account": "122000"
+      }
+    ]
+  }
+]

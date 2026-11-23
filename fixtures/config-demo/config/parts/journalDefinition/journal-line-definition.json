@@ -1,0 +1,311 @@
+{
+  "active": true,
+  "effectiveFrom": "2022-04-18",
+  "fields": [
+    {
+      "label": "Ingestion Id",
+      "name": "ingestionId",
+      "type": "text",
+      "role": "ingestionId",
+      "source": "input"
+    },
+    {
+      "label": "Journal Id",
+      "name": "journalId",
+      "type": "uuid",
+      "role": "journalId",
+      "source": "input"
+    },
+    {
+      "label": "Journal Type",
+      "name": "journalType",
+      "type": "text",
+      "role": "journalType",
+      "source": "input"
+    },
+    {
+      "label": "Posting Date",
+      "name": "coreDate",
+      "type": "date",
+      "role": "coreDate",
+      "source": "input"
+    },
+    {
+      "label": "Value Date",
+      "name": "valueDate",
+      "type": "date",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Accounting Base",
+      "name": "accountingConfig",
+      "type": "text",
+      "role": "accountingConfig",
+      "source": "input"
+    },
+    {
+      "label": "Account",
+      "name": "account",
+      "type": "text",
+      "role": "account",
+      "source": "input"
+    },
+    {
+      "label": "Transaction Currency",
+      "name": "transactionCurrency",
+      "type": "text",
+      "role": "transactionCurrency",
+      "source": "input"
+    },
+    {
+      "label": "Transaction Amount",
+      "name": "transactionAmount",
+      "type": "amount",
+      "role": "transactionAmount",
+      "source": "input"
+    },
+    {
+      "label": "Legal Entity",
+      "name": "legalEntity",
+      "type": "text",
+      "role": "node",
+      "source": "input"
+    },
+    {
+      "label": "Affiliate Entity",
+      "name": "affiliateEntity",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Region",
+      "name": "region",
+      "type": "text",
+      "role": "node",
+      "source": "input"
+    },
+    {
+      "label": "Business Unit",
+      "name": "businessUnit",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Cost Center",
+      "name": "costCenter",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Project Code",
+      "name": "projectCode",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Fund",
+      "name": "fund",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Affiliate Fund",
+      "name": "affiliateFund",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Financial Instrument Type",
+      "name": "financialInstrumentType",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Financial Instrument Id",
+      "name": "financialInstrumentId",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Distribution Channel",
+      "name": "distributionChannel",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Market",
+      "name": "market",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Insurance Product",
+      "name": "insuranceProduct",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Portfolio",
+      "name": "portfolio",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Cohort",
+      "name": "cohort",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Insurance Contract Group",
+      "name": "insuranceContractGroup",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Issue Year",
+      "name": "issueYear",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Accident Year",
+      "name": "accidentYear",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Direct Policy Number",
+      "name": "directPolicyNumber",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Coverage",
+      "name": "coverage",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Reinsurance Code",
+      "name": "reinsuranceCode",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Reinsurance Treaty",
+      "name": "reinsuranceTreaty",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Cash Flow Type",
+      "name": "cashFlowType",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Activity Type Code",
+      "name": "activityTypeCode",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Source System",
+      "name": "sourceSystem",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Source Transaction Id",
+      "name": "sourceTransactionId",
+      "type": "text",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Source Transaction Version",
+      "name": "sourceTransactionVersion",
+      "type": "integer",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Journal Line Id",
+      "name": "lineId",
+      "type": "uuid",
+      "role": "lineId",
+      "source": "input"
+    },
+    {
+      "label": "Reverses",
+      "name": "reverses",
+      "type": "uuid",
+      "role": "reverses",
+      "source": "input"
+    },
+    {
+      "label": "Reversed By",
+      "name": "reversedBy",
+      "type": "uuid",
+      "role": "reversedBy",
+      "source": "input"
+    },
+    {
+      "label": "Premium Tax Amount",
+      "name": "premiumTaxAmount",
+      "type": "decimal",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Commission Amount",
+      "name": "commissionAmount",
+      "type": "decimal",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Commission Tax Amount",
+      "name": "commissionTaxAmount",
+      "type": "decimal",
+      "role": "attribute",
+      "source": "input"
+    },
+    {
+      "label": "Payable Amount",
+      "name": "payableAmount",
+      "type": "decimal",
+      "role": "attribute",
+      "source": "input"
+    }
+  ],
+  "primaryKeys": [
+    "journalId",
+    "lineId"
+  ]
+}

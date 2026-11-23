@@ -1,0 +1,23 @@
+[
+  {
+    "fields": {
+      "region": "GB",
+      "legalEntity": "Acme Insurance Group"
+    },
+    "nodeConfigs": [
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "IFRS 17"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "Management"
+      }
+    ],
+    "timeZone": "Europe/London"
+  }
+]

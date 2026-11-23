@@ -1,0 +1,98 @@
+[
+  {
+    "businessEventTypeName": "FID_BROKER_PREMIUM_TAX_RECEIVABLE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_PREMIUM_TAX_RECEIVABLE"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_COMMISSION_TAX",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_COMMISSION_TAX"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_COMMISSION_TAX_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_COMMISSION_TAX_SETTLED"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_PREMIUM_RECEIVABLE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_PREMIUM_RECEIVABLE"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_COMMISSION",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_COMMISSION"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_PREMIUM_RECEIVABLE_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_PREMIUM_RECEIVABLE_SETTLED"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_PREMIUM_PAYABLE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_PREMIUM_PAYABLE"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_COMMISSION_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_COMMISSION_SETTLED"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_PREMIUM_PAYABLE_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_PREMIUM_PAYABLE_SETTLED"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_PREMIUM_PAYABLE_PAYMENT",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_PREMIUM_PAYABLE_PAYMENT"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_REVENUE RECOGNITION",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_REVENUE_RECOGNITION"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "FID_BROKER_PREMIUM_TAX_RECEIVABLE_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "BROKER_PREMIUM_TAX_RECEIVABLE_SETTLED"
+      }
+    ]
+  }
+]

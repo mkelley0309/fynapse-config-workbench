@@ -1,0 +1,7 @@
+# Provenance: `accountLookups`
+
+Derived from the demo-insurance bulk export (`projects/demo-insurance/examples/bulk-configuration-insurance.example.json`, version v20260515), section `accountLookups`.
+
+Edits:
+
+- Grouped by the accounting base of the posting patterns using each posting code (`shared`).

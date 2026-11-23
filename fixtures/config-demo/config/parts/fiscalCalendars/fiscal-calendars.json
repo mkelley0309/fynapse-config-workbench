@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Acme GB Fiscal Calendar",
+    "type": "gregorian",
+    "active": true,
+    "effectiveFrom": "2025-08-07",
+    "endOfFirstYear": "2020-12-31",
+    "startYear": 2020
+  },
+  {
+    "name": "Acme US Fiscal Calendar",
+    "type": "gregorian",
+    "active": true,
+    "effectiveFrom": "2025-08-07",
+    "endOfFirstYear": "2020-12-31",
+    "startYear": 2020
+  },
+  {
+    "name": "Acme CA Fiscal Calendar",
+    "type": "gregorian",
+    "active": true,
+    "effectiveFrom": "2025-08-07",
+    "endOfFirstYear": "2020-12-31",
+    "startYear": 2020
+  },
+  {
+    "name": "Acme SG Fiscal Calendar",
+    "type": "gregorian",
+    "active": true,
+    "effectiveFrom": "2025-08-07",
+    "endOfFirstYear": "2020-12-31",
+    "startYear": 2020
+  },
+  {
+    "name": "Acme PL Fiscal Calendar",
+    "type": "gregorian",
+    "active": true,
+    "effectiveFrom": "2025-08-07",
+    "endOfFirstYear": "2020-12-31",
+    "startYear": 2020
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "name": "Acme GB Business Calendar",
+    "status": "ACTIVE",
+    "effectiveFrom": "1900-01-01",
+    "effectiveTo": "2099-12-31",
+    "rules": [
+      {
+        "type": "HOLIDAY_API",
+        "name": "Public Holidays-e0fc4e2c-a446-4a5e-93c3-1583e5434244",
+        "nwdType": "PUBLIC_HOLIDAY",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "definition": [
+          "GB-GBN"
+        ],
+        "language": "en"
+      },
+      {
+        "type": "WEEK_DAYS",
+        "name": "Weekends-3cdd9dbd-1f93-4513-b579-fbb6cdd0abc5",
+        "nwdType": "WEEKEND",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "frequency": "EVERY",
+        "definition": [
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acme SG Business Calendar",
+    "status": "ACTIVE",
+    "effectiveFrom": "1900-01-01",
+    "effectiveTo": "2099-12-31",
+    "rules": [
+      {
+        "type": "HOLIDAY_API",
+        "name": "Public Holidays-ad2f8c23-74b8-4334-94ec-9fb8be8304b1",
+        "nwdType": "PUBLIC_HOLIDAY",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "definition": [
+          "SG"
+        ],
+        "language": "en"
+      },
+      {
+        "type": "WEEK_DAYS",
+        "name": "Weekends-4a8b6dc7-828e-4d59-b811-ded3c3f245ce",
+        "nwdType": "WEEKEND",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "frequency": "EVERY",
+        "definition": [
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acme CA Business Calendar",
+    "status": "ACTIVE",
+    "effectiveFrom": "1900-01-01",
+    "effectiveTo": "2099-12-31",
+    "rules": [
+      {
+        "type": "HOLIDAY_API",
+        "name": "Public Holidays-93efee16-f704-49c2-bcab-ef736449549d",
+        "nwdType": "PUBLIC_HOLIDAY",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "definition": [
+          "CA"
+        ],
+        "language": "en"
+      },
+      {
+        "type": "WEEK_DAYS",
+        "name": "Weekends-063b1b41-a9bb-462d-9b8d-ba111bf29cdb",
+        "nwdType": "WEEKEND",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "frequency": "EVERY",
+        "definition": [
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acme PL Business Calendar",
+    "status": "ACTIVE",
+    "effectiveFrom": "1900-01-01",
+    "effectiveTo": "2099-12-31",
+    "rules": [
+      {
+        "type": "HOLIDAY_API",
+        "name": "Public Holidays-4e6ced8d-5e85-446d-a6d8-852a96ea1985",
+        "nwdType": "PUBLIC_HOLIDAY",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "definition": [
+          "PL"
+        ],
+        "language": "en"
+      },
+      {
+        "type": "WEEK_DAYS",
+        "name": "Weekends-3b527d4e-391d-49d5-8ff6-034475b72c18",
+        "nwdType": "WEEKEND",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "frequency": "EVERY",
+        "definition": [
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Acme US Business Calendar",
+    "status": "ACTIVE",
+    "effectiveFrom": "1900-01-01",
+    "effectiveTo": "2099-12-31",
+    "rules": [
+      {
+        "type": "HOLIDAY_API",
+        "name": "Public Holidays-5ebe5a4c-53b6-4d47-a168-6735afdc2e6b",
+        "nwdType": "PUBLIC_HOLIDAY",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "definition": [
+          "US"
+        ],
+        "language": "en"
+      },
+      {
+        "type": "WEEK_DAYS",
+        "name": "Weekends-04cbdca7-0470-489a-8dd9-dd6bc5fd3525",
+        "nwdType": "WEEKEND",
+        "effectiveFrom": "1900-01-01",
+        "effectiveTo": "2099-12-31",
+        "frequency": "EVERY",
+        "definition": [
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ]
+  }
+]

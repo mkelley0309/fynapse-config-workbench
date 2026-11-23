@@ -1,0 +1,149 @@
+{
+  "fieldsMapping": [
+    {
+      "journalField": "valueDate",
+      "mappingType": "FIELD",
+      "field": "valueDate"
+    },
+    {
+      "journalField": "affiliateEntity",
+      "mappingType": "FIELD",
+      "field": "affiliateEntity"
+    },
+    {
+      "journalField": "businessUnit",
+      "mappingType": "FIELD",
+      "field": "businessUnit"
+    },
+    {
+      "journalField": "costCenter",
+      "mappingType": "FIELD",
+      "field": "costCenter"
+    },
+    {
+      "journalField": "projectCode",
+      "mappingType": "FIELD",
+      "field": "projectCode"
+    },
+    {
+      "journalField": "fund",
+      "mappingType": "FIELD",
+      "field": "fund"
+    },
+    {
+      "journalField": "affiliateFund",
+      "mappingType": "FIELD",
+      "field": "affiliateFund"
+    },
+    {
+      "journalField": "financialInstrumentType",
+      "mappingType": "FIELD",
+      "field": "financialInstrumentType"
+    },
+    {
+      "journalField": "financialInstrumentId",
+      "mappingType": "FIELD",
+      "field": "financialInstrumentId"
+    },
+    {
+      "journalField": "distributionChannel",
+      "mappingType": "FIELD",
+      "field": "distributionChannel"
+    },
+    {
+      "journalField": "market",
+      "mappingType": "FIELD",
+      "field": "market"
+    },
+    {
+      "journalField": "insuranceProduct",
+      "mappingType": "FIELD",
+      "field": "insuranceProduct"
+    },
+    {
+      "journalField": "portfolio",
+      "mappingType": "FIELD",
+      "field": "portfolio"
+    },
+    {
+      "journalField": "cohort",
+      "mappingType": "FIELD",
+      "field": "cohort"
+    },
+    {
+      "journalField": "insuranceContractGroup",
+      "mappingType": "FIELD",
+      "field": "insuranceContractGroup"
+    },
+    {
+      "journalField": "issueYear",
+      "mappingType": "FIELD",
+      "field": "issueYear"
+    },
+    {
+      "journalField": "accidentYear",
+      "mappingType": "FIELD",
+      "field": "accidentYear"
+    },
+    {
+      "journalField": "directPolicyNumber",
+      "mappingType": "FIELD",
+      "field": "directPolicyNumber"
+    },
+    {
+      "journalField": "coverage",
+      "mappingType": "FIELD",
+      "field": "coverage"
+    },
+    {
+      "journalField": "reinsuranceCode",
+      "mappingType": "FIELD",
+      "field": "reinsuranceCode"
+    },
+    {
+      "journalField": "reinsuranceTreaty",
+      "mappingType": "FIELD",
+      "field": "reinsuranceTreaty"
+    },
+    {
+      "journalField": "cashFlowType",
+      "mappingType": "FIELD",
+      "field": "cashFlowType"
+    },
+    {
+      "journalField": "activityTypeCode",
+      "mappingType": "FIELD",
+      "field": "activityTypeCode"
+    },
+    {
+      "journalField": "sourceTransactionId",
+      "mappingType": "FIELD",
+      "field": "sourceTransactionId"
+    },
+    {
+      "journalField": "sourceTransactionVersion",
+      "mappingType": "FIELD",
+      "field": "sourceTransactionVersion"
+    },
+    {
+      "journalField": "premiumTaxAmount",
+      "mappingType": "FIELD",
+      "field": "premiumTaxAmount"
+    },
+    {
+      "journalField": "commissionAmount",
+      "mappingType": "FIELD",
+      "field": "commissionAmount"
+    },
+    {
+      "journalField": "commissionTaxAmount",
+      "mappingType": "FIELD",
+      "field": "commissionTaxAmount"
+    },
+    {
+      "journalField": "payableAmount",
+      "mappingType": "FIELD",
+      "field": "payableAmount"
+    }
+  ]
+}

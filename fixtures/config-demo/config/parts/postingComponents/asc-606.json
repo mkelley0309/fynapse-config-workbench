@@ -1,0 +1,290 @@
+[
+  {
+    "code": "BROKER_PREMIUM_TAX_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Premium Tax Receivable",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Tax Payable",
+        "amountField": "premiumTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Tax Receivable",
+        "amountField": "premiumTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_PREMIUM_TAX_RECEIVABLE_SETTLED",
+    "journalType": "Perm",
+    "description": "Premium Tax Receivable Settlement",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Tax Receivable",
+        "amountField": "premiumTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "premiumTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_COMMISSION_TAX",
+    "journalType": "Perm",
+    "description": "Commission Tax",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Tax Expense Payable",
+        "amountField": "commissionTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Tax Expense Paid",
+        "amountField": "commissionTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_COMMISSION_TAX_SETTLED",
+    "journalType": "Perm",
+    "description": "Commission Tax Settlement",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Bank",
+        "amountField": "commissionTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Tax Expense Payable",
+        "amountField": "commissionTaxAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_PREMIUM_RECEIVABLE",
+    "journalType": "Perm",
+    "description": "Premium Receivable",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Broker Deferred Revenue",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Broker Accounts Receivable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_COMMISSION",
+    "journalType": "Perm",
+    "description": "Commission Payable",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "General Expenses Payable",
+        "amountField": "commissionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "General Expenses Paid",
+        "amountField": "commissionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_PREMIUM_RECEIVABLE_SETTLED",
+    "journalType": "Perm",
+    "description": "Settlement of Premium",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Broker Accounts Receivable",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Bank",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_PREMIUM_PAYABLE",
+    "journalType": "Perm",
+    "description": "Premium Payable",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Broker Accounts Payable",
+        "amountField": "payableAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "General Expenses Payable",
+        "amountField": "payableAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_COMMISSION_SETTLED",
+    "journalType": "Perm",
+    "description": "Commission Settlement",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Bank",
+        "amountField": "commissionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "General Expenses Payable",
+        "amountField": "commissionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_PREMIUM_PAYABLE_SETTLED",
+    "journalType": "Perm",
+    "description": "Settlement of Payable",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Other Accounts Payable",
+        "amountField": "payableAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Broker Accounts Payable",
+        "amountField": "payableAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_PREMIUM_PAYABLE_PAYMENT",
+    "journalType": "Perm",
+    "description": "Payment of Settlement Process",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Bank",
+        "amountField": "payableAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Other Accounts Payable",
+        "amountField": "payableAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  },
+  {
+    "code": "BROKER_REVENUE_RECOGNITION",
+    "journalType": "Perm",
+    "description": "Revenue recognized when performance obligation to carrier is satisfied by broker",
+    "accountingConfigName": "ASC 606",
+    "postingPatterns": [
+      {
+        "postingCode": "Broker Recognized Revenue",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "CR"
+      },
+      {
+        "postingCode": "Broker Deferred Revenue",
+        "amountField": "transactionAmount",
+        "currencyField": "transactionCurrency",
+        "postingDateField": "coreDate",
+        "amountSignage": "AUTO",
+        "debitCredit": "DR"
+      }
+    ]
+  }
+]

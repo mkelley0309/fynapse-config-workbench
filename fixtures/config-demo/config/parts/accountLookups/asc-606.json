@@ -1,0 +1,82 @@
+[
+  {
+    "postingCode": "Tax Receivable",
+    "accountLookupPatterns": [
+      {
+        "account": "134100"
+      }
+    ]
+  },
+  {
+    "postingCode": "Tax Payable",
+    "accountLookupPatterns": [
+      {
+        "account": "241000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Broker Accounts Receivable",
+    "accountLookupPatterns": [
+      {
+        "account": "134000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Broker Deferred Revenue",
+    "accountLookupPatterns": [
+      {
+        "account": "210000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Broker Accounts Payable",
+    "accountLookupPatterns": [
+      {
+        "account": "240000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Other Accounts Payable",
+    "accountLookupPatterns": [
+      {
+        "account": "254000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Broker Recognized Revenue",
+    "accountLookupPatterns": [
+      {
+        "account": "410000"
+      }
+    ]
+  },
+  {
+    "postingCode": "General Expenses Paid",
+    "accountLookupPatterns": [
+      {
+        "account": "900000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Tax Expense Paid",
+    "accountLookupPatterns": [
+      {
+        "account": "901000"
+      }
+    ]
+  },
+  {
+    "postingCode": "Tax Expense Payable",
+    "accountLookupPatterns": [
+      {
+        "account": "248100"
+      }
+    ]
+  }
+]

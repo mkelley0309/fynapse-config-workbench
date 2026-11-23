@@ -1,0 +1,592 @@
+[
+  {
+    "businessEventTypeName": "PREMIUM_WRITTEN",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_WRITTEN_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_WRITTEN",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_WRITTEN_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_UNEARNED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_UNEARNED_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_UNEARNED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_UNEARNED_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_PAYMENT",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_SETTLED"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_PAYMENT",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_SETTLED_CEDED"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_PAYMENT",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_SETTLED_ASSUMED"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_EXPENSE_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_EXPENSE_SETTLED_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_EXPENSE_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_EXPENSE_SETTLED_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_EXPENSE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_EXPENSE_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_EXPENSE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_EXPENSE_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_EARNED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_EARNED_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "PREMIUM_EARNED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_PREMIUM_EARNED_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_TRANSITION",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_TRANSITION"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_ISSUANCES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_ISSUANCES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_INT_RATE_CHANGES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_INT_RATE_CHANGES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_INT_ACCRUAL",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_INT_ACCRUAL"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_FEE_REC",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_FEE_COLLECTED"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_EXP_CHANGES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_EXP_CHANGES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_CREDIT_UNLOCK",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_CREDIT_RISK_UNLOCK"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_CREDIT_CHANGES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_CREDIT_CHANGES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_CF_CHANGES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_CF_CHANGES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "MRB_BENEFIT_PAID",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_MRB_BENEFIT_PAID"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_TRANSITION",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_TRANSITION"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_NETPREM_REC",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_NETPREM_COLLECTED"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_ISSUANCES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_ISSUANCES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_INT_ACCRUAL",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_INT_ACCRUAL"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_EXP_CHANGES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_EXP_CHANGES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_DISC_RATE_UNLOCK",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_DISC_RATE_UNLOCK"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_DISC_RATE_CHANGE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_DISC_RATE_CHANGE"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_DEREC",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_DEREC"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "LFPB_CF_CHANGES",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_LFPB_CF_CHANGES"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "IBNR_RESERVE_ADJ",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_IBNR_RESERVE_ADJUSTMENT"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_UNLOCK",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_UNLOCK"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_TRANSITION",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_TRANSITION"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_SETTLED_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_SETTLED_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_EXP_ADJ",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_ADJUSTMENT"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_DUE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_DUE_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_DUE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_DUE_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_DEFERRAL",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_DEFERRAL"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "DPAC_AMORT",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_DPAC_AMORT"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "CLAIM_SUBROGATION",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_CLAIM_SUBROGATION"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "CLAIM_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_CLAIM_SETTLED_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "CLAIM_SETTLED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_CLAIM_SETTLED_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "CLAIM_LOSS_ADJUSTMENT",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_CLAIM_LOSS_ADJUSTMENT"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "CLAIM_CASE_RESERVE",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_CLAIM_CASE_RESERVE"
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "CLAIM_APPROVED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_CLAIM_APPROVED_RECEIVABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Ceded"
+        ]
+      }
+    ]
+  },
+  {
+    "businessEventTypeName": "CLAIM_APPROVED",
+    "postingComponents": [
+      {
+        "postingComponentCode": "ASC944_CLAIM_APPROVED_PAYABLE"
+      }
+    ],
+    "matchDefinitions": [
+      {
+        "fieldName": "reinsuranceCode",
+        "type": "IN",
+        "values": [
+          "Assumed",
+          "Direct"
+        ]
+      }
+    ]
+  }
+]

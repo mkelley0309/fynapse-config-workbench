@@ -1,0 +1,24 @@
+[
+  {
+    "fieldName": "legalEntity",
+    "values": [
+      "Acme Insurance Group",
+      "Acme Life",
+      "Acme Cares",
+      "Acme Assure",
+      "Acme Re",
+      "Acme Mutual",
+      "Acme Captive"
+    ]
+  },
+  {
+    "fieldName": "region",
+    "values": [
+      "GB",
+      "US",
+      "CA",
+      "SG",
+      "PL"
+    ]
+  }
+]

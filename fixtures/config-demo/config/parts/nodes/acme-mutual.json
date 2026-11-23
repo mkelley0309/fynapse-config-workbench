@@ -1,0 +1,119 @@
+[
+  {
+    "fields": {
+      "region": "CA",
+      "legalEntity": "Acme Mutual"
+    },
+    "nodeConfigs": [
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "Management"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "IFRS 17"
+      }
+    ],
+    "timeZone": "America/Toronto"
+  },
+  {
+    "fields": {
+      "region": "GB",
+      "legalEntity": "Acme Mutual"
+    },
+    "nodeConfigs": [
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "IFRS 17"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "Management"
+      }
+    ],
+    "timeZone": "Europe/London"
+  },
+  {
+    "fields": {
+      "region": "PL",
+      "legalEntity": "Acme Mutual"
+    },
+    "nodeConfigs": [
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "Management"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "IFRS 17"
+      }
+    ],
+    "timeZone": "Poland"
+  },
+  {
+    "fields": {
+      "region": "SG",
+      "legalEntity": "Acme Mutual"
+    },
+    "nodeConfigs": [
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "IFRS 17"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "Management"
+      }
+    ],
+    "timeZone": "Singapore"
+  },
+  {
+    "fields": {
+      "region": "US",
+      "legalEntity": "Acme Mutual"
+    },
+    "nodeConfigs": [
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "NAIC"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "ASC 944"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "IFRS 17"
+      },
+      {
+        "graceDays": 5,
+        "graceHours": 0,
+        "overridePostingDate": "none",
+        "accountingConfigName": "Management"
+      }
+    ],
+    "timeZone": "America/New_York"
+  }
+]

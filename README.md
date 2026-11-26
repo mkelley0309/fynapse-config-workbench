@@ -1,5 +1,7 @@
 # fynapse-config-workbench
 
+> **Retired 2026-11;** superseded by the fynapse-workbench plugin (Fynapse-Labs/fynapse-workbench-plugin) and payload-relay.
+
 A client-free **template host** for Fynapse configuration engagements.
 
 - `engagement/` — the payload copied into every engagement repo: a pinned harness subset (hop 1, `harness.lock.json`) plus Fynapse configuration tooling (`engagement/tools/fynapse/`: `config_assemble.py`, `config_validate.py`).
